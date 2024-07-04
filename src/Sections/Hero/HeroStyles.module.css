@@ -1,0 +1,45 @@
+
+/* HeroStyles.module.css */
+
+.hero {
+    border-radius: 50%;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+.colorModeContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing as needed */
+}
+
+.themeIcon {
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+}
+
+
+.themeIcon {
+    transition: color 0.3s ease;
+}
+
+.themeIcon.light {
+    color: #000; /* Black or any dark color */
+}
+
+.themeIcon.dark {
+    color: #fff; /* White or any light color */
+}
+
+.socialLinks a {
+    transition: color 0.3s ease;
+}
+
+.socialLinks a.light {
+    color: #000; /* Black or any dark color */
+}
+
+.socialLinks a.dark {
+    color: #fff; /* White or any light color */
+}
